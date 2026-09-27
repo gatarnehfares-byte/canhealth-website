@@ -1,0 +1,298 @@
+
+    body{
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      }
+
+
+      
+
+    .head{
+      background-color: white; 
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo{
+      width: 400;
+      align-items: flex-start;
+    }
+
+    .headbutton a{
+    display: inline-block;
+    color:#098C7D;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    }
+
+    .headbutton a:hover{
+    transform: scale(1.05);
+    color: #098C7D;
+    background-color: #b5dcd8;
+    }
+
+
+    .welcome {
+        color: #098C7D;
+        background-image: url(image/image.png);
+        background-size: cover;
+        background-color: rgba(255, 255, 255, 0.782);
+        background-blend-mode:soft-light;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 0 0 200px 200px;
+        padding: 90px 90px;
+      
+    }
+    .welcome h2{
+
+     text-align: left;  
+     font-size: xx-large;
+    }
+
+    .welcome p {
+     text-align: left;
+     width: 50%;
+     color:#05544b;
+     
+  
+    }
+
+    .sub{
+        color: black;
+    }
+    .end{
+        text-align: center;
+    }
+  .Licensing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px; /* مسافة بين الصورة والنص */
+    margin: 30px 30px
+  }
+
+  .Licensing img {
+    width: 500px; /* تقدري تغيري الحجم */
+     mask-image: linear-gradient(to left, transparent, black);
+    -webkit-mask-image: linear-gradient(to right, transparent, black)
+  }
+
+  .Licensing .text p {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .Licensing .text h3{
+    color: #05544b;
+  }
+
+   .ops{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px; /* مسافة بين الصورة والنص */
+    margin: 30px 30px
+  }
+
+  .ops img {
+    width: 500px; /* تقدري تغيري الحجم */
+    border-radius: 10px;
+    mask-image: linear-gradient(to left, transparent, black);
+    -webkit-mask-image: linear-gradient(to left, transparent, black);
+  }
+
+  .ops .text2 p {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .H3ops{
+    color: #05544b;
+  }
+
+
+   .Con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px; /* مسافة بين الصورة والنص */
+    margin: 30px 30px
+  }
+
+  .Con img {
+    width: 500px; /* تقدري تغيري الحجم */
+    border-radius: 10px;
+    mask-image: linear-gradient(to left, transparent, black);
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+  }
+
+  .Con .text3 p {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  .Con2{
+    color: #05544b;
+  }
+
+    .footer {
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 60px;
+    color: #555;
+    font-size: 16px;
+    }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-section {
+        color:#05544b;
+        text-align: left;
+        margin: 80px;
+    }
+
+.about{
+    color: black;
+    text-align: center;
+  }
+
+.Us{
+    color: black;
+    text-align: center;
+  }
+
+  .contact-section {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  background: #f5f5f7; /* لون خفيف مثل ستايل Apple */
+}
+
+
+.contact-card {
+  width: 90%;          /* أكبر من قبل */
+  max-width: 1000px;   /* حد أقصى */
+  padding: 50px;       /* مساحة داخلية أكبر */
+}
+
+
+.contact-card h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  font-size: 16px;
+  background: #fafafa;
+  transition: 0.2s;
+  margin-bottom: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #000;
+  background: #fff;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background:#098C7D;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-form button:hover {
+  background: #333;
+}
+
+.last{
+  text-align: center;
+  color: lightgray;
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  display: none; /* يختفي لحد ما تنزلي */
+  transition: 0.3s;
+}
+
+#toTopBtn:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+#whatsappBtn {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: 999;
+  transition: 0.3s;
+}
+
+#whatsappBtn img {
+  width: 60px;
+  height: 60px;
+}
+
+#whatsappBtn:hover {
+  transform: scale(1.12);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+
